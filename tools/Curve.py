@@ -23,4 +23,4 @@ class Curve:
     
     @staticmethod
     def _lerp(start, end, t):
-        return (t * start) + ((1-t) * end)
+        return (t * end) + ((1-t) * start)
